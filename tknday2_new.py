@@ -28,8 +28,8 @@ def store_temp(set_temp):
     global temp2
     temp2 = set_temp 
 
-window.grid_columnconfigure(1, weight = 1) 
-window.grid_rowconfigure(1, weight = 1) 
+window.grid_columnconfigure(1, weight = 0) 
+window.grid_rowconfigure(1, weight = 0) 
 
 inputNumber = tk.StringVar() 
 var = tk.StringVar() 
